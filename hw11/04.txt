@@ -1,0 +1,7 @@
+HSET emails 'polly' 'polly@gmail.com'
+
+HGET emails 'polly'
+
+HSET users 'polly@gmail.com' 'polly'
+
+HGET users 'polly@gmail.ru'
